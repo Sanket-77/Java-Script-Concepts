@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<title>Root file</title>
+<head></head>
+<body>
+    <h1>This is our home page</h1>
+<div>
+    <h3>User Data Form</h3>
+    <div>
+        <form>
+            <div>
+                <span><lable>Email:</lable></span>
+                <div><input type="text" id ="uname" name="uname"  value="" /> </div>
+            </div>
+            <div>
+                <span><lable>Password:</lable></span>
+                <div><input type="password" id ="password" name ="uname" value="" /> </div>
+            </div>
+            <div id = "DynamicControls">
+                <input type ="button" value="Submit Details" onclick="servercommunication()"/>
+                
+                <table border = "1"  Id = 'userRow'>
+                    <tr>
+                        <th>Full name</th>
+                        <th>Email</th>
+                        <th>Image</th>
+                    </tr>
+                <table>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+<script Type = "text/javascript" src="./JS/Es6.js"></Script>
+</html>

@@ -38,12 +38,10 @@ function bindUserDetails(data){
         img.src = data[user].avatar;
         td3.appendChild(img);
 
-
         var newRow = document.createElement('tr');
         newRow.appendChild(td1);
         newRow.appendChild(td2);
         newRow.appendChild(td3);
-
 
         var tabledata = document.getElementById('userRow');
         tabledata += tabledata.appendChild(newRow);

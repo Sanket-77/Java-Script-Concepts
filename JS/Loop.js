@@ -9,7 +9,7 @@ for (var i = 0; i < array.length; i++) {
     console.log("Every element in array", array[i]);
 }
 // for loop support only array kind data
-//object dosent have length propety*******
+// Object dosent have length propety *******
 
 // ** While loop => while loop will use to handle process untill it will not get finish.
 var test = 10
@@ -26,7 +26,6 @@ do {
     console.log("tast1", test1)
 
 } while (test1 < 5)
-
 
 // *** For-in => for in is similar kind of for loop but supported object and arrya both of the data.
 

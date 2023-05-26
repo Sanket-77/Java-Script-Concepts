@@ -2,7 +2,6 @@
 // resolve and reject
 // resolve state means there execution is successfully done.Ther are one more state are pending.
 // pending will wait the promises processis inprogress.
-// javascript inbuuild object 
 
 var promiseobject = new Promise(function (resolve, reject) {
     // resolve("I am successfull Executed");

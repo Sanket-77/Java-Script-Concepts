@@ -1,4 +1,4 @@
-/* Breowser will use aecho engine or js engine to run script code 
+/* Browser will use aecho engine or js engine to run script code. 
 Engine has been specifide some structure 
 */
 // alert("show me alert box")
@@ -16,7 +16,7 @@ number => 125364
 float => 35.57
 boolean=> true or false / By default false 
 undefine=> using it but not defined anywhere 
-null=> it is took some memory which is used to store dynamic any kind of value 
+null=> it is took some memory which is used to store dynamic any kind of value  * type of null is object *
 */
 
 // 2. non primitive => Date, Array, Object

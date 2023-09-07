@@ -1,4 +1,4 @@
-//*****  Onject or Array methods ******/
+//*****  Object or Array methods ******/
 //methods are playing role to process data in minimum time. It will give accurate result
 
 //Array Method => ********************
@@ -17,7 +17,7 @@ simplearray.concat();
 var result = emppersonaldetail.filter((item, index) => (item = "empfname"));
 //console.log("result", result)
 
-// ForEach => this method is also utilise to itterate the every element in Array.it will modify original array
+// ForEach => this method is also utilise to itterate the every element in Array. it will modify original array
 
 var empdetail = [
   { id: 1, name: "Test1" },
@@ -27,7 +27,7 @@ var empdetail = [
   { id: 5, name: "Test5" },
 ];
 
-//console.log("original empdetail", empdetail)
+// console.log("original empdetail", empdetail)
 
 empdetail.forEach((item, index) => {
   if (item.id == 4) {
@@ -36,7 +36,7 @@ empdetail.forEach((item, index) => {
   }
 });
 
-//console.log("after for each ", empdetail)
+// console.log("after for each ", empdetail)
 
 // ** indexof => this method is used to find out element into the array. If element will not present it will return -1. else it will return 0
 
@@ -58,13 +58,13 @@ var rea = details.indexOf("shubham");
 var joinarr = details.join(" / ");
 //console.log("joinarr", joinarr)
 
-//** Lastindexof => will return last index posion of element from array
+//** Lastindexof => will return last index position of element from array
 
 var checklastindex = details.lastIndexOf("sanket");
 
 //console.log("checklastindex", checklastindex)
 
-//** Map => it will iterate every element from array. Also we modify existing element using map. it will never return new array  */
+//** Map => Used with array to create new array by applying function to each elements of the original array. it dosent modify the original array, insted it return new array with modified value.
 
 var mapResult = details.map((item, index) => item == "pratik");
 
@@ -101,7 +101,7 @@ redexample.reverse();
 redexample.slice(0, 4);
 
 //splice => it will eccept start and end point of elemenet. but it will delete the end point count.
-// we can pass element number in start position and give delete count. it will gwnwrate new array for delete element only.
+// we can pass element number in start position and give delete count. it will generate new array for delete element only.
 // Also effect the original array
 
 redexample.splice(0, 3);
@@ -130,9 +130,9 @@ var sortex = [23324, 435, 576, 80, 6, 1, 7890];
 
 // object assign() => it will create a new object and disconnection fron source one.it will work with deep copy concept
 
-//object.freeze() => it will nit allowed write anything into the object.
+//object.freeze() => it will not allowed to add, delete and change into the object.
 
-//***/ 1> deep copy => deep copy will copy object or array into anather source and disconnect from original.
+//***/ 1> deep copy => deep copy will copy object or array into another source and disconnect from original.
 // copwithspread = {...cop1};
 
 //***/ 2> shalow copy => it will do copy one object into another but keep connect with orirginal one.

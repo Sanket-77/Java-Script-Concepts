@@ -1,6 +1,6 @@
-//ES6 => is advance version of javasrcipt. Which is Supported in javascript.
+// ** ES6 => is advance version of javasrcipt.
 // Features of javascript
-// 1. Two new variable let and const
+// 1. let and const
 // 2. Arrow
 // 3. Template Literal
 // 4. Default parameter
@@ -9,7 +9,7 @@
 
 // 1. Let and Const => It is variable Type but it work base on the scope. it will not supported hoisting.
 
-// let => This type of variable we can not declare multiple time. but we override its value.
+// let => This type of variable we can not declare multiple time. but we override its value. 
 let test = "This is test pf let var";
 
 test = "override let variable value ";
@@ -32,7 +32,7 @@ user.phone = "const user phone update";
 console.log("const user", user);
 
 // * 2  Arrow => Arrow is similar kind of normal function but its taking memory unit while execute.
-// so it is faster than the normal function. Also it is not requied specific name
+// so it is faster than the normal function. Also it is not requied specific name. 
 // It will return statment automatically if we not give any kind of return there.
 // As usual this keyword is not requird.
 // syntax () => {} / not required function keyword.
@@ -45,8 +45,7 @@ const Arrowtype = () => {
   console.log("Iam Arrow Function");
 };
 
-//* 3. Template Literal => It will usefull for concatination a text
-// This will help to change dynamic bloging.
+//* 3. Template Literal => It will usefull for concatination of text.
 
 var text1 = "Dynamic variable one ";
 var text2 = "Dynamic varianle two";

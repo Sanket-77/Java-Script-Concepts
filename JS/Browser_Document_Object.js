@@ -8,8 +8,8 @@
 // Window.replace => It will use to replace the current page url.
 // Window.navigation => It will give information about page navigation or routes.
 // Window.alert => alert() => use to show message on popup box of browser.
-// Window.innerhight => it will give brwoser page inner hight in pixle.
-// Window.innerwidth => it will give brwoser page inner width in pixle.
+// Window.innerhight => it will give browser page inner hight in pixle.
+// Window.innerwidth => it will give browser page inner width in pixle.
 
 // settimeout => set time out will be use to perform a task after specific time
 // setTimeout(() => {
@@ -22,11 +22,11 @@
 //     var test = console.log("Execute after every 3 sec")
 // }, 3000);
 
-// clear intervat => which is sue to stop setinterval execution
+// clear intervatl => which is use to stop setinterval execution
 // clearInterval();
 
-// *** DOM => Document Object Model => 
-// this object model will use to document element using diff methods.
+// *** DOM => Document Object Model =>
+// This object model will use to document element using diff methods.
 
 // Document.write will use to write a content on page dynamiclly
 document.write("<h1>Write from js script</h1>");
@@ -38,12 +38,12 @@ var inputText = documenet.getElementById("Submitbutton");
 inputText.addEventListner("click", callEvent);
 
 function callEvent() {
-  documenet.write(<input type = "text" id = "dyn1" class = "dyn1"/>);
+  documenet.write(<input type="text" id="dyn1" class="dyn1" />);
 
   var creatinput = documenet.createElemenet("input");
-  creatinput.setattribute('type','text')
-  creatinput.setattribute('id','text1')
-  creatinput.setattribute('class','text1')
+  creatinput.setattribute("type", "text");
+  creatinput.setattribute("id", "text1");
+  creatinput.setattribute("class", "text1");
 
   document.getElementById(DynamicControls).appendChild(creatinput);
 
